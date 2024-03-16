@@ -1,0 +1,8 @@
+.component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh; // Left For graceful degradation
+    height: 100dvh;
+}
