@@ -9,10 +9,25 @@
     }
   ],
   "compilerOptions": {
+    "types": ["vite/client"],
+    "lib": ["dom", "es2020"],
+    "target": "es2020",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true, // Enable JSON module resolution
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "module":"ESNext",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
   },
+  "include": [
+    "./src/**/*"
+  ],
   "exclude": ["node_modules"],
 }
