@@ -1,0 +1,23 @@
+.card-component {
+    max-width: 400px;
+    width: 100%;
+
+    .card-content {
+        margin-block: 1.5em;
+
+        .card-label {
+            color: $color-white;
+            word-wrap: break-word;
+            font-family: 'open-sans-regular';
+        }
+
+        .card-text {
+            color: $color-gray;
+            font-family: 'open-sans-regular';
+            margin-block-end: 2em;
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+    }
+
+}
