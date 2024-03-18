@@ -1,14 +1,17 @@
 .component {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     overflow: hidden;
     position: relative;
     height: 100%;
+    margin-block-start: 5em;
+    margin-block-end: 5em;
     
     @media only screen and (min-width: 768px) {
         height: 100vh; // Left For graceful degradation
         height: 100dvh;
-        padding-inline: 20em;
+        // padding-inline: 20em;
+        margin-block: 0;
     }
 }
