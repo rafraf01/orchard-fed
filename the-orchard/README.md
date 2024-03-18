@@ -37,6 +37,7 @@ npm install
 ### Compile and Hot-Reload for Development
 
 ```sh
+cd the-orchard
 npm run dev
 ```
 
