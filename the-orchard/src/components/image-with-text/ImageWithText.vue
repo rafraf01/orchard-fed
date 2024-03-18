@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { ImageInterface, ImageWithTextContent } from '@/interface/interfaces';
+import { type ImageInterface, type ImageWithTextContent } from '@/interface/interface';
 import Typography from '@/components/typography/TypographyTag.vue';
 import Image from '@/components/image/ImageLoader.vue';
 

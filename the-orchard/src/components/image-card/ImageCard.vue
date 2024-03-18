@@ -16,7 +16,7 @@
 import Image from "@/components/image/ImageLoader.vue";
 import Typography from "@/components/typography/TypographyTag.vue";
 import AnchorTag from "@/components/ui/anchor/AnchorTag.vue";
-import { ImageInterface } from "@/interface/interfaces";
+import { type ImageInterface } from "@/interface/interface";
 
 export interface CardProps {
     headline: string;
